@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="formulariotpo.css".css">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <header class="header"> HEADER
+        <h1>LA GALERIA DE CARO</h1>
+         <nav>
+           <a href="index.html" class="enlace">Inicio</a>
+            <a href="galeriatpo.css" class="enlace">Galeria</a>
+            <a href="formulariotpo.html" class="enlace">Contacto</a>
+         
+         </nav>-->
+     </header>
+
+
+    <form name="formulario" method="post" target="blank" action="prueba1.html">
+    <fieldset>
+        <legend><h2>INFORMACION</h2></legend>
+        
+        <label>Nombre:
+            <p><input type="text" name="Nombre" minlength="3" maxlength="15" autocomplete="off" required></p></label>
+        
+        <label>email:
+             <p><input type="email" name="" id="email" required></p></label>
+             <ul>
+                 <li><input type="checkbox" name="grande" > Grande (50cm x 70cm)</li>
+                 <li> <input type="checkbox" name="mediano">Mediano (35cm x 50cm)</li>
+                 <li> <Input type="checkbox" name="pequeño"> Pequeño (20cm x 30cm)</li>
+
+             </ul>
+             <br><br><br>
+             <ul>
+                <li><input type="checkbox" name="estilorealista" >Realista</li>
+                <li> <input type="checkbox" name="estilocubista">Cubista</li>
+                
+             </ul>
+             <br><br><br>
+             <ul>
+                <li><input type="checkbox" name="materiall" >Lapiz</li>
+                <li> <input type="checkbox" name="materiala">Acuarela</li>
+                
+            </ul>
+
+       <!--<label>celular:
+            <p><input type="tel" name="celular" required></p></label>
+        </label>contraseña:
+             <p><input type="password" name="clave" size="20" required></p></label>
+             <br>-->
+        <textarea name="comentario" cols="40" rows="20"> Escribe tu comentario...</textarea>
+        <br>
+        <input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+    </fieldset>
+   
+    </form>
+</body>
+</html>

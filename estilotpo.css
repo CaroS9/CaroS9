@@ -1,0 +1,57 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.padre{
+    display: flex;
+    flex-direction: column; /* para que los items esten uno a la par del otro pongo row a partir de un determinado tamaño*/
+    flex-wrap: wrap; /* con nowrap los elementos van en una sola linea adapatando el tamaño*/ 
+
+    text-align: center;
+    align-items: stretch; /* lo agregue recien*/
+    
+    
+}
+
+.header, .ejemplo, .izquierda, .derecha, /*.footer*/{
+    flex-grow: 1;
+    flex-basis: 80% ;
+   /* overflow: hidden; lo saque yo*/
+    padding: 1em;
+    border:rgb(80, 40, 40) 0.3em solid
+}
+.header{background-color: rgb(17, 17, 13);
+    font-weight: bold;}
+.ejemplo{background-color: rgb(100, 122, 115);}
+.izquierda{background-color: rgba(210, 105, 30, 0.801);}
+.derecha{background-color: rgb(219, 158, 4);}
+.footer{background-color: rgb(20, 22, 21);}
+
+
+
+
+@media (min-width: 535px){
+    .izquierda, .derecha{ flex: 1 1 auto;}
+}
+
+@media (min-width: 800px){
+    .ejemplo{flex: 2 0; }
+    .izquierda{order: 1;}
+    .ejemplo{order: 2;}
+    .derecha{order: 3;}
+
+}
+/*@media all and (max-width:599px) {.padre {
+    display: flex;
+    flex-direction: column;
+}*/
+      
+
+.enlace{ 
+    background-color: rgb(192, 199, 236);
+    padding: 5px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+

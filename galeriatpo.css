@@ -1,0 +1,90 @@
+*{  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0% ;
+    padding: 0%;
+   /* background-image: linear-gradient(-60deg, #1386f1 0%, #f4d03f 20%);*/
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); 
+   /* background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); */
+   /* background: linear-gradient(to right, #243949 0%, #517fa4 100%);*/
+   /* background-image: linear-gradient(to right, #434343 0%, black 100%);*/
+   /*background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);*/
+  /* background:coral*/
+}
+.header{background-color: rgb(17, 17, 13);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+}
+.enlace{ 
+        background-color: rgb(192, 199, 236);
+        padding: 5px;
+        border-radius: 10%;
+        text-decoration: none;
+}
+    
+.footer{background-color: rgb(20, 22, 21);
+        color: aliceblue;}
+
+.slider{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    
+    
+}
+.slider ul{
+    display: flex;
+    animation: cambio 50s infinite alternate linear;
+    width: 1000%;
+    
+    
+}
+.slider li{
+    width: 100%;
+    list-style:none;
+    
+}
+.slider img{
+   width: 50%; 
+   height: 60%;
+   padding: 1%;
+
+}
+@keyframes cambio {
+    0%{margin-left: 25%;} 
+    5%{margin-left: 25%;}
+    
+    10%{margin-left: -75%;}
+    15%{margin-left: -75%;}
+
+    20%{margin-left: -175%;}
+    25%{margin-left: -175%;}
+    
+    30%{margin-left: -275%;}
+    35%{margin-left: -275%;}
+    
+    40%{margin-left: -375%;}
+    45%{margin-left: -375%;}
+    
+    50%{margin-left: -475%;}
+    55%{margin-left: -475%;}
+    
+    60%{margin-left: -575%;}
+    65%{margin-left: -575%;}
+
+    70%{margin-left: -675%;}
+    75%{margin-left: -675%;}
+    
+    80%{margin-left: -775%;}
+    85%{margin-left: -775%;}
+    
+    90%{margin-left: -875%;}
+    100%{margin-left: -875%;}
+
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: aliceblue;
+    font-family: cursive;
+    background-color: rgb(39, 44, 44);
+}
